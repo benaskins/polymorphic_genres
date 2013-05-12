@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  genre_id: 1
+  taggable_type: MyString
+  taggable_id: 1
+
+two:
+  genre_id: 1
+  taggable_type: MyString
+  taggable_id: 1
