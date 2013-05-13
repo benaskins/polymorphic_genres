@@ -1,0 +1,4 @@
+= simple_form_for @label do |f|
+	= f.input :name
+	= f.association :genres, :as => :radio_buttons
+	= f.button :submit

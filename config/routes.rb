@@ -1,4 +1,6 @@
 PolymorphicExample::Application.routes.draw do
+  resources :labels
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

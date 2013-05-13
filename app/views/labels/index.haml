@@ -1,0 +1,6 @@
+%h1 Labels
+
+%ul
+	- @labels.each do |label|
+		%li
+			%a(href='#{edit_label_path(label)}')= label.name
